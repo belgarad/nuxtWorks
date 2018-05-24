@@ -2,9 +2,7 @@
     "name": "nuxtworks",
     "description": "Nuxt.js project",
     "dependencies": {
-        "nuxt": "^1.0.0"
-    },
-    "devDependencies": {
+        "nuxt": "^1.0.0",
         "babel-eslint": "^8.2.1",
         "eslint": "^4.15.0",
         "eslint-friendly-formatter": "^3.0.0",

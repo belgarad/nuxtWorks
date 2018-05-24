@@ -1,64 +1,18 @@
-[debug] [2018-05-24T14:05:45.708Z] ----------------------------------------------------------------------
-[debug] [2018-05-24T14:05:45.708Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Pc-One\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy --only functions
-[debug] [2018-05-24T14:05:45.708Z] CLI Version:   3.17.4
-[debug] [2018-05-24T14:05:45.708Z] Platform:      win32
-[debug] [2018-05-24T14:05:45.708Z] Node Version:  v8.11.1
-[debug] [2018-05-24T14:05:45.708Z] Time:          Thu May 24 2018 17:05:45 GMT+0300 (Türkiye Standart Saati)
-[debug] [2018-05-24T14:05:45.708Z] ----------------------------------------------------------------------
+[debug] [2018-05-24T14:21:29.731Z] ----------------------------------------------------------------------
+[debug] [2018-05-24T14:21:29.731Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Pc-One\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
+[debug] [2018-05-24T14:21:29.731Z] CLI Version:   3.17.4
+[debug] [2018-05-24T14:21:29.731Z] Platform:      win32
+[debug] [2018-05-24T14:21:29.731Z] Node Version:  v8.11.1
+[debug] [2018-05-24T14:21:29.731Z] Time:          Thu May 24 2018 17:21:29 GMT+0300 (Türkiye Standart Saati)
+[debug] [2018-05-24T14:21:29.731Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2018-05-24T14:05:45.728Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2018-05-24T14:05:45.728Z] > authorizing via signed-in user
-[debug] [2018-05-24T14:05:45.728Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/nuxt-ceylan-app  
+[debug] [2018-05-24T14:21:29.747Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-05-24T14:21:29.747Z] > authorizing via signed-in user
+[debug] [2018-05-24T14:21:29.747Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/nuxt-ceylan-app  
   
- Thu May 24 2018 17:05:45 GMT+0300 (Türkiye Standart Saati)
-[debug] [2018-05-24T14:05:47.745Z] <<< HTTP RESPONSE 200
-[debug] [2018-05-24T14:05:47.746Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/nuxt-ceylan-app/tokens  
-  
- Thu May 24 2018 17:05:47 GMT+0300 (Türkiye Standart Saati)
-[debug] [2018-05-24T14:05:49.057Z] <<< HTTP RESPONSE 200
-[info] 
-[info] === Deploying to 'nuxt-ceylan-app'...
-[info] 
-[info] i  deploying functions
-[debug] [2018-05-24T14:05:50.741Z] > [functions] package.json contents: {
-  "name": "nuxtworks",
-  "description": "Nuxt.js project",
-  "dependencies": {
-    "nuxt": "^1.0.0"
-  },
-  "devDependencies": {
-    "babel-eslint": "^8.2.1",
-    "eslint": "^4.15.0",
-    "eslint-friendly-formatter": "^3.0.0",
-    "eslint-loader": "^1.7.1",
-    "eslint-plugin-vue": "^4.0.0",
-    "babel-plugin-transform-runtime": "^6.23.0",
-    "babel-preset-stage-0": "^6.24.1",
-    "babel-runtime": "^6.23.0",
-    "clone": "^2.1.1",
-    "debug": "^3.1.0",
-    "es6-promise": "^4.1.1",
-    "express": "^4.15.4",
-    "firebase-admin": "^5.0.1",
-    "firebase-functions": "^0.6.1",
-    "isomorphic-fetch": "^2.2.1",
-    "babel-preset-es2015": "^6.24.1"
-  }
-}
-[info] i  functions: ensuring necessary APIs are enabled...
-[debug] [2018-05-24T14:05:50.743Z] >>> HTTP REQUEST GET https://servicemanagement.googleapis.com/v1/services/cloudfunctions.googleapis.com/projectSettings/nuxt-ceylan-app?view=CONSUMER_VIEW  
-  
- Thu May 24 2018 17:05:50 GMT+0300 (Türkiye Standart Saati)
-[debug] [2018-05-24T14:05:50.743Z] >>> HTTP REQUEST GET https://servicemanagement.googleapis.com/v1/services/runtimeconfig.googleapis.com/projectSettings/nuxt-ceylan-app?view=CONSUMER_VIEW  
-  
- Thu May 24 2018 17:05:50 GMT+0300 (Türkiye Standart Saati)
-[debug] [2018-05-24T14:05:52.455Z] <<< HTTP RESPONSE 200
-[debug] [2018-05-24T14:05:53.020Z] <<< HTTP RESPONSE 200
-[info] +  functions: all necessary APIs are enabled
-[debug] [2018-05-24T14:05:53.021Z] >>> HTTP REQUEST GET https://appengine.googleapis.com/v1/apps/nuxt-ceylan-app  
-  
- Thu May 24 2018 17:05:53 GMT+0300 (Türkiye Standart Saati)
-[debug] [2018-05-24T14:05:53.022Z] >>> HTTP REQUEST GET https://apikeys.googleapis.com/v1/projects/nuxt-ceylan-app/apiKeys  
-  
- Thu May 24 2018 17:05:53 GMT+0300 (Türkiye Standart Saati)
-[debug] [2018-05-24T14:05:54.488Z] <<< HTTP RESPONSE 200
+ Thu May 24 2018 17:21:29 GMT+0300 (Türkiye Standart Saati)
+[debug] [2018-05-24T14:21:29.832Z] Error: getaddrinfo ENOTFOUND admin.firebase.com admin.firebase.com:443
+    at errnoException (dns.js:50:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:92:26)
+[error] 
+[error] Error: Server Error. getaddrinfo ENOTFOUND admin.firebase.com admin.firebase.com:443
