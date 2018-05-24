@@ -1,1 +1,3 @@
 firebase serve --only functions,hosting -p 5084
+
+firebase deploy --except functions
