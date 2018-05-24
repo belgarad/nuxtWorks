@@ -20,6 +20,7 @@ module.exports = {
     /*
      ** Build configuration
      */
+    buildDir:'../functions/nuxt',
     build: {
         publicPath: '/public/',
         vendor: ['isomorphic-fetch'],
